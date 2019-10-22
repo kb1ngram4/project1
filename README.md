@@ -35,3 +35,13 @@
         static :静态资源
     9.建仓库
         初始化git 忽略文件 .gitignore
+
+        css,js文件最终要打包成 ./dist/css(js)/目录文件
+
+        脚本文件里删了什么，或者添加什么， npm i 都会删除或下载什么
+
+        为了每次都不用敲命令去打包编译sass，所以用批处理文件.bat文件
+
+#### 生产环境(bat)
+    打包static, index.html => dist
+        npm install fs-extra -D

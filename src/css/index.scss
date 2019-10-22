@@ -5,5 +5,10 @@
 @import"./business/course.scss";
 @import"./business/home.scss";
 @import"./business/team.scss";
-@import"./business/works.scss"
+@import"./business/works.scss";
 
+#app{
+    width: 100px;
+    height: 100px;
+    background-color: #000000;
+}
