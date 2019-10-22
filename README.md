@@ -49,6 +49,6 @@
     开发环境不需要polyfill,生产环境再打开
       import "@babel/polyfill" 
       package.json只需要sass和webpack即可，--watch监听其每一次改动（依赖）
-# 同时开两个终端，一个跑sass，一个跑webpack，实时监视
+### 同时开两个终端，一个跑sass，一个跑webpack，实时监视
       
       
