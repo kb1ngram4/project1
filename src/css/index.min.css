@@ -329,6 +329,12 @@ input[type=button] {
 #wrap #content > .list > li.home div {
   background-color: orange;
 }
+#wrap #content > .list > li.course {
+  background-image: url(../../static/img/bg2.jpg);
+}
+#wrap #content > .list > li.course div {
+  background-color: green;
+}
 #wrap #content > .list > li.works {
   background-image: url(../../static/img/bg3.jpg);
 }

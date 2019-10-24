@@ -113,14 +113,10 @@
                   }
               }    
               &.course{
-               
-                // &>div{
-                //     // position: relative;
-                    
-                //     // &>.course-1{
-                        
-                //     // }
-                // }   
+                background-image: url(../../static/img/bg2.jpg);
+                div{
+                    background-color: green;
+                }  
               }  
               &.works{
                 background-image: url(../../static/img/bg3.jpg);

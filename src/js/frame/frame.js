@@ -19,9 +19,7 @@ window.onload = function () {
                poliNodes[i].onclick = liNodes[i].onclick = function () {
                    move(this.index);
                 }
-                // liNodes[i].addEventListener('click', ()=> {
-                //     move(this.index);
-                // })
+                //
             
         }
     }
