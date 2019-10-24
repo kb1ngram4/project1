@@ -19,7 +19,7 @@ window.onload = function () {
                poliNodes[i].onclick = liNodes[i].onclick = function () {
                    move(this.index);
                 }
-                //
+                //终于可以忽略已提交文件
             
         }
     }
