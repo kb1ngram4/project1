@@ -1,0 +1,14 @@
+.clearfix{
+    zoom: 1;
+    &:after{
+        display: block;
+        content: '';
+        clear: both;
+    }
+}
+
+.commonText{
+    color: white;
+    line-height: 1.5;
+    font-size: 15px;
+}
