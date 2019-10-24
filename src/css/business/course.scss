@@ -1,0 +1,28 @@
+@import "../extend/extend.scss";
+#wrap{
+    #content{
+        .list{
+            &>.course{
+                &>div{
+                    @extend .commomText;
+                    &>.title{
+                        padding: 50px;
+                        font-size: 80px;
+                        color: #009ee0;
+                        font-weight: bold;
+                        line-height: .8;
+                        letter-spacing: -5px;
+                    }
+                    &>.textarea{
+                        width: 400px;
+                        height: 400px;
+                        margin-left: 50px;
+                    }
+                    &.phwall{
+
+                    }
+                }
+            }
+        }
+    }
+}
